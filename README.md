@@ -19,7 +19,7 @@ This project investigates whether the two most correlated variables with crime, 
 
 For this purpose, I use county-level crime data and socioeconomic indicators from the American Community Survey (ACS), and then compare traditional econometric models with machine learning approaches to identify nonlinear relationships and potential tipping points.
 
-The central finding is that poverty exhibits a threshold effect around **16.6%**, beyond which predicted violent crime rates increase substantially more rapidly. Unemployment, however, displays a positive but more gradual relationship with crime.
+The central finding is that poverty exhibits a threshold effect around **16.6%**, beyond which predicted violent crime rates increase much more rapidly. Unemployment, however, displays a positive but more gradual relationship with crime.
 
 ## Research Question
 
