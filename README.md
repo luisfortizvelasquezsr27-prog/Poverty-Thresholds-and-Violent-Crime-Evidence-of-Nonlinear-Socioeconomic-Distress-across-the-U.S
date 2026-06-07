@@ -2,9 +2,18 @@
 
 ## Overview
 
-<img src="output/poverty_threshold_curve.png" width="600">
-
-<img src="output/unemployment_threshold_curve.png" width="600">
+<table>
+  <tr>
+    <td align="center">
+      <img src="output/poverty_threshold_curve.png" width="450"><br>
+      <b>Poverty Threshold (16.6%)</b>
+    </td>
+    <td align="center">
+      <img src="output/unemployment_threshold_curve.png" width="450"><br>
+      <b>Unemployment Relationship</b>
+    </td>
+  </tr>
+</table>
 
 This project investigates whether the two most correlated variables with crime, ooverty and unemployment, influence violent crime at a constant rate across U.S. counties or whether threshold effects arise when communities reach sufficiently high levels of socioeconomic distress.
 
