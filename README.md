@@ -45,7 +45,7 @@ The central finding is that poverty exhibits a threshold effect around **16.6%**
 
 ## Methods
 
-I begin the analysis with Ordinary Least Squares (OLS) regression to establish a baseline relationship between poverty, unemployment, and violent crime, and although OLS provides interpretable coefficients, it assumes that these relationships are linear and constant across counties.
+I begin the analysis with Ordinary Least Squares (OLS) regression to establish a baseline relationship between poverty, unemployment, and violent crime. Although OLS yields interpretable coefficients, it assumes that these relationships are linear and constant across counties.
 
 Now, to evaluate whether this assumption is appropriate, I estimate nonlinear OLS specifications and then apply Random Forest and XGBoost models, which can capture more complex patterns like nonlinear relationships. 
 
