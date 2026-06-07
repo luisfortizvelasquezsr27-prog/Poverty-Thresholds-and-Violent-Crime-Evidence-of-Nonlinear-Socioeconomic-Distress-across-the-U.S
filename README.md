@@ -81,7 +81,6 @@ The central finding is that poverty exhibits a threshold effect around **16.6%**
 │   └── unemployment_threshold_curve.png
 
 ```
-```
 
 ## Key Results
 
@@ -92,6 +91,8 @@ The central finding is that poverty exhibits a threshold effect around **16.6%**
 | OLS | 0.101 |
 | Random Forest | 0.197 |
 | XGBoost | 0.207 |
+
+
 
 ### Poverty Threshold
 
