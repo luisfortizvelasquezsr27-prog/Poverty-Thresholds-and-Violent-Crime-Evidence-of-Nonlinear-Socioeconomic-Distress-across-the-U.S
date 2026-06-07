@@ -2,9 +2,9 @@
 
 ## Overview
 
-![Poverty Threshold](output/poverty_threshold_curve.png)
+<img src="output/poverty_threshold_curve.png" width="600">
 
-![Unemployment Threshold](output/unemployment_threshold_curve.png)
+<img src="output/unemployment_threshold_curve.png" width="600">
 
 This project investigates whether the two most correlated variables with crime, ooverty and unemployment, influence violent crime at a constant rate across U.S. counties or whether threshold effects arise when communities reach sufficiently high levels of socioeconomic distress.
 
@@ -93,16 +93,12 @@ The central finding is that poverty exhibits a threshold effect around **16.6%**
 | XGBoost | 0.207 |
 
 
-
 ### Poverty Threshold
 
 - Estimated threshold: **16.6% poverty**
 - Predicted crime rates increase sharply beyond this level
 - Evidence of a nonlinear relationship between poverty and violent crime
 
-## Agentic Analysis
-
-This project incorporated AI-assisted research workflows. Claude and ChatGPT were used to support coding, debugging, visualization, interpretation of statistical results, and writing refinement. All final analyses, figures, interpretations, and conclusions were manually reviewed and verified using the underlying data and model outputs.
 
 ## Author
 
