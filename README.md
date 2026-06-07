@@ -43,19 +43,13 @@ The central finding is that poverty exhibits a threshold effect around **16.6%**
 
 ## Methods
 
-### Traditional Statistical Models
-- Ordinary Least Squares (OLS)
-- Nonlinear OLS Specifications
-  - Quadratic models
-  - Quintile-based models
+## Methods
 
-### Machine Learning Models
-- Random Forest
-- XGBoost
+I begin the analysis with Ordinary Least Squares (OLS) regression to establish a baseline relationship between poverty, unemployment, and violent crime, and although OLS provides interpretable coefficients, it assumes that these relationships are linear and constant across counties.
 
-### Model Interpretation
-- SHAP (SHapley Additive exPlanations)
-- Threshold Detection Analysis
+Now, to evaluate whether this assumption is appropriate, I estimate nonlinear OLS specifications and then apply Random Forest and XGBoost models, which can capture more complex patterns like nonlinear relationships. 
+
+Finally, I use SHAP values to identify the most important predictors of violent crime and conduct threshold detection analysis to determine whether poverty or unemployment exhibit evidence of socioeconomic tipping points.
 
 ## Main Findings
 
