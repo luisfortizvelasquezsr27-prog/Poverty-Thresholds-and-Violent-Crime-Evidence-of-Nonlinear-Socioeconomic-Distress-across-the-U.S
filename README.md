@@ -15,7 +15,7 @@
   </tr>
 </table>
 
-This project investigates whether the two most correlated variables with crime, ooverty and unemployment, influence violent crime at a constant rate across U.S. counties or whether threshold effects arise when communities reach sufficiently high levels of socioeconomic distress.
+This project investigates whether the two most correlated variables with crime, poverty and unemployment, influence violent crime at a constant rate across U.S. counties or whether threshold effects arise when communities reach sufficiently high levels of socioeconomic distress.
 
 For this purpose, I use county-level crime data and socioeconomic indicators from the American Community Survey (ACS), and then compare traditional econometric models with machine learning approaches to identify nonlinear relationships and potential tipping points.
 
