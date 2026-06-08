@@ -71,8 +71,8 @@ Input:
 
 Output:
 - Summary statistics printed to notebook
-- research_workflow.png
-- crime_hist.png
+- `research_workflow.png`
+- `crime_hist.png`
 
 ---
 
