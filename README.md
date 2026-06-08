@@ -43,13 +43,48 @@ The central finding is that poverty exhibits a threshold effect around **16.6%**
 
 ## Methods
 
-## Methods
-
 I begin the analysis with Ordinary Least Squares (OLS) regression to establish a baseline relationship between poverty, unemployment, and violent crime. Although OLS yields interpretable coefficients, it assumes that these relationships are linear and constant across counties.
 
 Now, to evaluate whether this assumption is appropriate, I estimate nonlinear OLS specifications and then apply Random Forest and XGBoost models, which can capture more complex patterns like nonlinear relationships. 
 
 Finally, I use SHAP values to identify the most important predictors of violent crime and conduct threshold detection analysis to determine whether poverty or unemployment exhibit evidence of socioeconomic tipping points.
+
+## Workflow
+
+**01_data_preprocessing.ipynb**
+
+Input:
+- FBI UCR county crime data (`mikejohnsonjr/united-states-crime-rates-by-county` via Kaggle)
+- ACS 2023 unemployment data (`Unemployment2023.csv`)
+- ACS 2023 poverty data (`Poverty2023.csv`)
+- ACS 2023 education data (`Education2023.csv`)
+
+Output:
+- `processed_data.csv` (3,123 counties × 8 columns)
+
+---
+
+**02_workflow_eda.ipynb**
+
+Input:
+- `processed_data.csv`
+
+Output:
+- Summary statistics printed to notebook
+- EDA figures displayed inline from `figures/`
+
+---
+
+**03_analysis.ipynb**
+
+Input:
+- `processed_data.csv`
+
+Output:
+- `output/model_comparison.csv`
+- `output/threshold_summary.csv`
+- Figures: `ols_coefficients.png`, `model_comparison.png`, `shap_importance.png`, `poverty_threshold_curve.png`, `unemployment_threshold_curve.png`
+
 
 ## Main Findings
 
