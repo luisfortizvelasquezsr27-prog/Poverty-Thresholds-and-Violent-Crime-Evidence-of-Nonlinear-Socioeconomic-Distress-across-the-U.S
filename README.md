@@ -71,7 +71,8 @@ Input:
 
 Output:
 - Summary statistics printed to notebook
-- EDA figures displayed inline from `figures/`
+- research_workflow.png
+- crime_hist.png
 
 ---
 
