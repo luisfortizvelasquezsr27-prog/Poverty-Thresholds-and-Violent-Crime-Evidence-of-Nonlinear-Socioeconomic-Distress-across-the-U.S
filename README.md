@@ -53,6 +53,12 @@ Finally, I use SHAP values to identify the most important predictors of violent 
 
 ## Main Findings
 
+| Model | Test R² |
+|---------|---------|
+| OLS | 0.101 |
+| Random Forest | 0.197 |
+| XGBoost | 0.207 |
+
 - Poverty is the strongest predictor of county-level violent crime.
 - Machine learning models outperform linear regression in predictive accuracy.
 - A poverty threshold emerges at approximately **16.6%**.
@@ -84,24 +90,6 @@ Finally, I use SHAP values to identify the most important predictors of violent 
 │   └── unemployment_threshold_curve.png
 
 ```
-
-## Key Results
-
-### Model Performance
-
-| Model | Test R² |
-|---------|---------|
-| OLS | 0.101 |
-| Random Forest | 0.197 |
-| XGBoost | 0.207 |
-
-
-### Poverty Threshold
-
-- Estimated threshold: **16.6% poverty**
-- Predicted crime rates increase sharply beyond this level
-- Evidence of a nonlinear relationship between poverty and violent crime
-
 
 ## Author
 
