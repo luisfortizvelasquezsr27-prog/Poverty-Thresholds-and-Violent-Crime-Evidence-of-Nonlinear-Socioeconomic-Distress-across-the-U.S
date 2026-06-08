@@ -106,8 +106,6 @@ Output:
 ```text
 ## Repository Structure
 
-```text
-.
 ├── code/
 │   ├── 01_data_preprocessing.py
 │   ├── 02_workflow_eda.py
