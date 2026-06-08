@@ -112,8 +112,8 @@ Output:
 │   └── 03_analysis.py
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── processe_data/
+│   └── raw_data/
 │
 ├── output/
 │   ├── crime_hist.png
